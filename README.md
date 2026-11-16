@@ -67,3 +67,7 @@ However, if you already cloned it and forgot to initialize the submodules, execu
 ```bash
 git submodule update --init
 ```
+
+## License
+
+Heed and heed3 are licensed under MIT. By default, heed statically links with LMDB, which is licensed under [the OpenLDAP license](./LICENSE-OPENLDAP). By using heed or heed3, you need to make sure you comply with the terms of both the MIT and the OpenLDAP license.
